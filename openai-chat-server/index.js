@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const configuration = new Configuration({
     organization: "org-G6ZTJhAYojlCQ2JLtxeEV8lF",
-    apiKey: "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",//your CHATGPT key goes here!
+    apiKey: "",//your CHATGPT key goes here!
 });
 const openai = new OpenAIApi(configuration);
 const app = express()
